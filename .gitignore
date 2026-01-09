@@ -1,0 +1,23 @@
+# Word and PDF files
+*.doc
+*.docx
+*.pdf
+
+# LibreHardwareMonitor folder
+LibreHardwareMonitor/
+
+# Temporary files
+~$*.docx
+~$*.xlsx
+*.tmp
+
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+venv/
