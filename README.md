@@ -4,13 +4,13 @@ The aim of this project is to forecast UK carbon intensity (CI) in 2025 in a sus
 
 
 
-To run each method on its own, simply execute the corresponding file (recomposition\_method.py, regression\_method.py, XGBoost\_method.py). Only the recomposition and nonlinear regression methods are used in final analysis, which takes place in power\_meter.py
+To run each method on its own, simply execute the corresponding file (recomposition\_method.py, regression\_method.py, XGBoost\_method.py). Only the recomposition and nonlinear regression methods are used in final analysis, which takes place in power\_meter.py.
 
 
 
 **Sustainable Analysis**
 
-Each function records its own runtime, and reports this alongside training and validation results. The main execution file is power\_meter.py, which measures the power consumption of overall code execution. It also calculates the carbon emissions of the code, using real-time CI values in London that are obtained from Carbon Intensity API.
+Each function records its own runtime, and reports this alongside training and validation results. The main execution file is power\_meter.py, which measures the power consumption of overall code execution. It also calculates the carbon emissions of the code, using real-time CI values in London that are obtained from Carbon Intensity API. The power-related metrics used in power\_meter.py were obtained by using the power\_metrics.py script to parse JSON data for relevant metrics based on keyword.
 
 
 
