@@ -4,7 +4,7 @@ The aim of this project is to forecast UK carbon intensity (CI) in 2025 in a sus
 
 
 
-To run each method on its own, simply execute the corresponding file (recomposition\_method.py, regression\_method.py, XGBoost\_method.py). Only the recomposition and nonlinear regression methods are used in final analysis, which takes place in power\_meter.py.
+To run each method on its own, simply execute the corresponding file (recomposition\_method.py, regression\_method.py, XGBoost\_method.py). Only the recomposition and nonlinear regression methods are used in final analysis, which takes place in power\_meter.py. This is because XGBoost exhibited significant overfitting and incurred a high computational cost.
 
 
 
