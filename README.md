@@ -18,3 +18,5 @@ Each function records its own runtime, and reports this alongside training and v
 
 Each function produces some graphs for insight, however the majority of analysis is done in the Jupyter Notebook archived\_analysis.ipynb. These include context for the dataset, and prior regression models that were discarded. The overall set of results for the project can be found in Results.xlsx. Relevent images are found in the Images folder.
 
+The written report for the project can be found at Project Report.pdf
+
